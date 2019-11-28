@@ -1,0 +1,5 @@
+[pull]
+       rebase = true
+
+[alias]
+       tree=log --oneline --graph --decorate -20
