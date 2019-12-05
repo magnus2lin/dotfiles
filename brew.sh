@@ -22,3 +22,4 @@ brew install python3
 brew install vault
 brew install zsh
 brew install antigen
+brew install duplicity

@@ -1,5 +1,11 @@
 export TERM="xterm-256color"
 
+autoload -Uz compinit
+compinit
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/vault vault
+
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 ######################################################################
@@ -27,8 +33,6 @@ antigen bundle docker-compose
 
 antigen bundle iterm2
 
-antigen bundle iterm2
-
 antigen bundle kubectl
 
 antigen bundle ansible
@@ -43,5 +47,6 @@ antigen theme akz92/clean
 
 antigen apply
 
-source "${HOME}/.aliases"
+source ~/.aliases
 source ~/.iterm2_shell_integration.zsh
+source ~/.env

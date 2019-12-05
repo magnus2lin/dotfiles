@@ -3,3 +3,6 @@
 
 [alias]
        tree=log --oneline --graph --decorate -20
+[user]
+	name = x
+	email = x
