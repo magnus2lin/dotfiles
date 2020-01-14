@@ -19,3 +19,6 @@ pip3 install requests
 pip3 install slack
 pip3 install slackclient
 pip3 install urllib3
+pip3 install pytest-cov
+pip3 install pytest-codestyle
+pip3 install pytest-timeout

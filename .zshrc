@@ -20,6 +20,7 @@ antigen bundle extract
 
 # suggestions
 antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
 
 # Syntax highlighting on the readline
 antigen bundle zsh-users/zsh-syntax-highlighting
