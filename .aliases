@@ -1,3 +1,4 @@
 
 alias afk="pmset displaysleepnow"
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+#alias ls="ls -1"

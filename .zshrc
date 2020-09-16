@@ -42,9 +42,13 @@ antigen bundle colorize
 
 antigen bundle git
 
+
 #antigen theme benniemosher/the-one-theme
 #antigen theme avit
 antigen theme akz92/clean
+
+#antigen bundle superbrothers/zsh-kubectl-prompt
+#antigen bundle jonmosco/kube-ps1
 
 antigen apply
 

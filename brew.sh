@@ -23,3 +23,5 @@ brew install vault
 brew install zsh
 brew install antigen
 brew install duplicity
+brew install dnsmasq
+brew install keyring
