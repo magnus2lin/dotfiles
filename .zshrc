@@ -55,3 +55,8 @@ antigen apply
 source ~/.aliases
 source ~/.iterm2_shell_integration.zsh
 source ~/.env
+
+
+export GPG_TTY=$(tty)
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
