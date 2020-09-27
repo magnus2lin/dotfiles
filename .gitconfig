@@ -4,5 +4,5 @@
 [alias]
        tree=log --oneline --graph --decorate -20
 [user]
-	name = x
-	email = x
+	name = magnus2lin
+	email = magnus2lin
