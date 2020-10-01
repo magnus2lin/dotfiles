@@ -1,4 +1,3 @@
 
 alias afk="pmset displaysleepnow"
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-#alias ls="ls -1"
+alias learn="gpg-connect-agent "scd serialno" "learn --force" /bye"
