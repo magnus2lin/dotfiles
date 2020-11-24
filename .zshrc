@@ -63,4 +63,12 @@ export CDPATH=.:~:~/Documents/projects/dt:~/Documents/projects/prv
 
 export GPG_TTY=$(tty)
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+
+CERT_PATH=$(python -m certifi)
+export SSL_CERT_FILE=${CERT_PATH}
+export REQUESTS_CA_BUNDLE=${CERT_PATH}
+
+
+
 gpgconf --launch gpg-agent
+. "/Users/magthu/.acme.sh/acme.sh.env"

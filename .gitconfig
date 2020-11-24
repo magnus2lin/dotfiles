@@ -3,6 +3,8 @@
 
 [alias]
        tree=log --oneline --graph --decorate -20
+       co=checkout
 [user]
-	name = magnus2lin
-	email = magnus2lin
+	name = XXX
+	email = XXX
+	signingkey = 217B2C5D

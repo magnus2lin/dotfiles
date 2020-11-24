@@ -25,3 +25,16 @@ brew install antigen
 brew install duplicity
 brew install dnsmasq
 brew install keyring
+brew install antigen
+brew install bash
+brew install gettext
+brew install gnupg yubikey-personalization hopenpgp-tools ykman pinentry-mac
+brew install openshift-cli
+
+brew cask install atom
+brew cask install bitwarden
+brew cask install docker
+brew cask install iterm2
+brew cask install slack
+brew cask install firefox
+brew cask install keybase

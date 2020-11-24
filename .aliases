@@ -1,3 +1,4 @@
 
 alias afk="pmset displaysleepnow"
 alias learn="gpg-connect-agent "scd serialno" "learn --force" /bye"
+alias ssh-copy="ssh-copy-id -f -i ~/.ssh/id_rsa.pub"
