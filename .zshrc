@@ -1,3 +1,6 @@
+export PATH=/usr/local/bin:/usr/local/sbin:${PATH}
+export PATH=${PATH}:/Users/${LOGNAME}/Library/Python/3.7/bin
+
 export TERM="xterm-256color"
 
 autoload -Uz compinit
@@ -71,4 +74,3 @@ export REQUESTS_CA_BUNDLE=${CERT_PATH}
 
 
 gpgconf --launch gpg-agent
-. "/Users/magthu/.acme.sh/acme.sh.env"
